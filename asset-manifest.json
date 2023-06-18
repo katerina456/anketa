@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/anketa/static/css/main.6548e5b1.css",
+    "main.js": "/anketa/static/js/main.74558acb.js",
+    "static/media/Delete.svg": "/anketa/static/media/Delete.bbb223817c251670755204889d967d26.svg",
+    "static/media/folder.svg": "/anketa/static/media/folder.98c0dbfd456042f9424bb72c86135482.svg",
+    "index.html": "/anketa/index.html",
+    "static/media/Plus.svg": "/anketa/static/media/Plus.3ad12e8cba6b37ee7a5bc0eeee5f38dc.svg",
+    "main.6548e5b1.css.map": "/anketa/static/css/main.6548e5b1.css.map",
+    "main.74558acb.js.map": "/anketa/static/js/main.74558acb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6548e5b1.css",
+    "static/js/main.74558acb.js"
+  ]
+}

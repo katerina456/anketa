@@ -1,0 +1,210 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body * {
+  box-sizing: border-box;
+}
+
+body {
+  background: #F4F4F5;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.App {
+  margin-top: 24px;
+}
+
+.Main {
+  background: #FFFFFF;
+  border-radius: 12px 12px 0px 0px;
+  width: 900px;
+  height: 704px;
+  padding: 25px;
+  margin: 0 auto;
+}
+
+.Main-header {
+  display: flex;
+  column-gap: 24px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.Main-header-round {
+  width: 80px;
+  height: 80px;
+  background: #D5E4F7;
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Main-header-round span {
+  font-family: "SBSansDisplay", Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 52px;
+  color: #212830;
+}
+
+.Main-header-title {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10.4px;
+  justify-content: center;
+}
+.Main-header-title p {
+  font-family: "SB Sans Interface";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 26px;
+  color: #333333;
+}
+
+.Main-header-links {
+  display: flex;
+  column-gap: 17.6px;
+}
+
+.Main-info {
+  padding-top: 24px;
+  padding-bottom: 48px;
+}
+.Main-info label {
+  font-family: "SB Sans Interface";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #333333;
+  margin-bottom: 8px;
+  display: block;
+}
+.Main-info input {
+  width: 400px;
+  height: 44px;
+  background: rgba(0, 0, 0, 0.04);
+  border: 1px solid rgba(0, 0, 0, 0.16);
+  border-radius: 4px;
+  padding: 12px;
+}
+.Main-info input::placeholder {
+  font-family: "SB Sans Interface";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: rgba(0, 0, 0, 0.48);
+}
+
+.Main-info-inputs {
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+  margin-bottom: 48px;
+}
+
+.Step {
+  padding: 62px 112px;
+  padding-bottom: 80px;
+  background: #FFFFFF;
+  border-radius: 24px;
+  width: 900px;
+  min-height: 821px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.Step header {
+  display: flex;
+  flex-direction: column;
+  row-gap: 12px;
+  margin-bottom: 67px;
+}
+.Step header input {
+  width: -webkit-fill-available;
+  appearance: none;
+  background: rgba(0, 0, 0, 0.08);
+  border-radius: 8px;
+  height: 8px;
+}
+.Step header input::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 16px;
+  height: 16px;
+  background: #FFFFFF;
+  border: 7px solid #5558FA;
+  border-radius: 100px;
+  cursor: pointer;
+  position: relative;
+  z-index: 1;
+}
+.Step header .Step-header-text {
+  display: flex;
+  justify-content: space-between;
+}
+.Step header .Step-header-text p {
+  position: relative;
+  display: block;
+  width: 16px;
+}
+.Step header .Step-header-text p::before {
+  content: "";
+  width: 16px;
+  height: 16px;
+  background: #A6A6A6;
+  border-radius: 100px;
+  display: inline-block;
+  position: absolute;
+  bottom: 26px;
+  left: 0;
+  z-index: 0;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+  margin-bottom: 16px;
+}
+form p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #333333;
+}
+form textarea {
+  width: 100%;
+  height: 84px;
+  background: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.16);
+  border-radius: 4px;
+  resize: vertical;
+  padding: 12px;
+  font-family: "SB Sans Interface";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #333333;
+  outline: none;
+}
+form textarea::placeholder {
+  font-family: "SB Sans Interface";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: rgba(0, 0, 0, 0.48);
+}
+
+.Step-buttons {
+  display: flex;
+  justify-content: space-between;
+}
