@@ -1,0 +1,47 @@
+.button {
+    width: 44px;
+    height: 44px;
+    border: 1.5px solid #5558FA;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.button:hover {
+    background: #d5e6f1;
+}
+
+.text {
+    font-family: 'SB Sans Interface';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #333333;
+}
+
+.flex {
+    display: flex;
+    column-gap: 16px;
+    align-items: center;
+}
+
+.flexColumn {
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+}
+
+.buttonRemove {
+    cursor: pointer;
+}
+
+.mistake {
+    font-family: 'SB Sans Interface';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: red;
+}

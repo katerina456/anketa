@@ -1,0 +1,19 @@
+.MainLink {
+    display: flex;
+    align-items: center;
+    column-gap: 5.6px;
+}
+
+.MainLinkA {
+    font-family: 'SB Sans Interface';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #5558FA;
+    text-decoration: none;
+}
+
+.MainLinkA:hover {
+    text-decoration: underline;
+}

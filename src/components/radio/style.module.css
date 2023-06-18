@@ -1,0 +1,37 @@
+.Radio {
+    display: block;
+    position: relative;
+}
+
+.Radio>input {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+}
+
+.Radio>span {
+    padding-left: 30px;
+    font-family: 'SB Sans Interface';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #333333;
+}
+
+
+.Radio>span::before {
+    content: '';
+    width: 20px;
+    height: 20px;
+    background: #FFFFFF;
+    border: 1.5px solid rgba(0, 0, 0, 0.24);
+    border-radius: 100px;
+    position: absolute;
+    left: 0;
+    box-sizing: border-box;
+}
+
+.Radio>input:checked+span::before {
+    background: radial-gradient(#333333 0%, #333333 30%, #FFFFFF 30%);
+}

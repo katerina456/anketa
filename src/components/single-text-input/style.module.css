@@ -1,0 +1,27 @@
+.InputText {
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+}
+
+.label {
+    font-family: 'SB Sans Interface';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #333333;
+}
+
+.tip {
+    font-family: 'SB Sans Interface';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: rgba(0, 0, 0, 0.48);
+}
+
+.mistake {
+    color: red;
+}

@@ -1,0 +1,44 @@
+.Checkbox {
+    display: block;
+    position: relative;
+}
+
+.Checkbox>input {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+}
+
+.Checkbox>span {
+    padding-left: 30px;
+    font-family: 'SB Sans Interface';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #333333;
+}
+
+
+.Checkbox>span::before {
+    content: '';
+    width: 20px;
+    height: 20px;
+    background: #FFFFFF;
+    border: 1.5px solid rgba(0, 0, 0, 0.24);
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 0;
+    box-sizing: border-box;
+}
+
+.Checkbox>input:checked+span::before {
+    content: '+';
+    font-size: 20px;
+    font-family: 'SB Sans Interface';
+    font-style: normal;
+    font-weight: 400;
+}

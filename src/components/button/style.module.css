@@ -1,0 +1,36 @@
+.buttonBlue {
+    width: 79px;
+    height: 44px;
+    background: #5558FA;
+    border: 0;
+    border-radius: 4px;
+    cursor: pointer; 
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.buttonBlue:hover {
+    background: #393bac;
+}
+
+.buttonWhite {
+    width: 79px;
+    height: 44px;
+    border-radius: 4px;
+    cursor: pointer; 
+    border: 1.5px solid #5558FA;
+    background: transparent;
+
+    color: #5558FA;
+}
+
+.buttonWhite:hover {
+    background: #deeef5;
+}
+
+.span {
+    font-family: 'SB Sans Interface';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+}
