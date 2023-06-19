@@ -33,7 +33,7 @@ function Main() {
           </div>
         </div>
 
-        <Link to="/create" >
+        <Link to="/anketa/create" >
           <Button text='Начать' id='button-start' />
         </Link>
       </main>

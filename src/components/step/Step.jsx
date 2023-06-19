@@ -41,7 +41,7 @@ function Step() {
       </div>
 
       <div className="Step-buttons">
-        {formPart === 1 ? <Link to='/'>
+        {formPart === 1 ? <Link to='/anketa/'>
                             <Button text='Назад' id='button-back' />
         </Link> : <Button text='Назад' id='button-back' handleclick={decrementFormPage} />}
         
